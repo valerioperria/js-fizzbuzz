@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid crimson;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 2rem auto;
+    background-color: steelblue;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.square {
+    width: calc((100% / 10) - 0.9rem);
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: lightblue;
+}
+
+.Fizz {
+    background-color: gold;
+}
+
+.Buzz {
+    background-color: lightgreen;
+}
+
+.FizzBuzz {
+    background-color: salmon;
+}
